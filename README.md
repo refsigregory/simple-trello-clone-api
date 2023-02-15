@@ -1,7 +1,7 @@
 ## Installation
 ### Manual Install
 - `npm install`
-- copy `env` to `.env`, leave `MONGO_USER` and `MONGO_PASS` blank if not using URI without username & password like in localhost
+- copy `env` to `.env`
 - `npm start`
 
 ### Docker
@@ -9,6 +9,10 @@
 
 ## Tests
 - Run `npm test`
+
+### Tests in Docker
+- Run `docker exec -it <container-name> /bin/bash`
+- Execute `npm test`
 
 ## Guide
 #### Endpoints
